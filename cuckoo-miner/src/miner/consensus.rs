@@ -14,6 +14,7 @@
 
 /// Difficulty calculation as from Grin
 
+use util;
 use blake2::blake2b::Blake2b;
 use std::cmp::{max, min};
 use std::fmt;
